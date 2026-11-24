@@ -1,0 +1,21 @@
+h1 {
+    font-family: "Permanent Marker", cursive;
+}
+h3 {
+    font-family: "Comic Relief", system-ui;
+}
+p {
+    font-family: "Sour Gummy", sans-serif;
+    /* with variable fotns, you have much more flexibility with the style of the font */
+    font-weight: 100;
+
+    /* font-variation-settings is a catch-all for all settings outside of weight and italics */
+    font-variation-settings: "wdth" 100;
+
+    /* this is for animation */
+    transition: all 0.5s;
+}
+p:hover{
+    font-weight: 700;
+    font-variation-settings: "wdth" 125;
+}
